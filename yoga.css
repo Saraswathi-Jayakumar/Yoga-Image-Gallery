@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: max-content;
+  border: 4px solid rgba(153, 153, 89, 0.925);
+  background-image: linear-gradient(
+    to bottom left,
+    rgba(49, 49, 3, 0.925) 28%,
+    rgb(167, 174, 98) 30%,
+    rgba(70, 70, 2, 0.925) 34%
+  );
+  background-size: 150%;
+  animation: swing 8s linear infinite alternate;
+}
+@keyframes swing {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 80%;
+  }
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 100%;
+  height: max-content;
+  padding-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana;
+  color: aliceblue;
+  font-size: 10.5px;
+  margin-top: 10px;
+}
+.container #heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 30px;
+  padding: 10px;
+}
+.container #heading #logo-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid rgb(60, 70, 40);
+}
+.container #heading h1 {
+  font-size: 1.2rem;
+  color: white;
+}
+.container .slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 8px;
+  width: 98%;
+  height: fit-content;
+}
+.container .slider .prev {
+  width: 2.5%;
+  height: 2.5vh;
+  border-right: 14px solid rgb(237, 239, 241);
+  border-bottom: 14px solid transparent;
+  border-left: 14px solid transparent;
+  border-top: 14px solid transparent;
+  cursor: pointer;
+}
+.container .slider .prev #tooltip {
+  visibility: hidden;
+  background-color: rgba(82, 80, 80, 0.926);
+  position: absolute;
+  z-index: 1;
+}
+.container .slider .prev:hover #tooltip {
+  visibility: visible;
+}
+.container .slider .imageBox {
+  width: 95%;
+  height: fit-content;
+  border: 5px solid aliceblue;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  padding: 8px;
+  align-items: center;
+}
+.container .slider .imageBox #header {
+  width: 100%;
+  height: 5.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+.container .slider .imageBox #imageSlider {
+  width: 100%;
+  height: 55vh;
+  border: 1px solid rgb(60, 70, 40);
+  border-radius: 15px;
+}
+.container .slider .imageBox #benefits {
+  width: 100%;
+  height: fit-content;
+  font-size: 12px;
+  line-height: 22px;
+}
+.container .slider .imageBox .Button {
+  width: 65px;
+  height: fit-content;
+  border-radius: 50%;
+  border: 3px solid aliceblue;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(82, 80, 80, 0.926);
+}
+.container .slider .imageBox .Button #Play {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  background-color: transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 25px solid aliceblue;
+  border-top: 25px solid transparent;
+  visibility: visible;
+  cursor: pointer;
+}
+.container .slider .imageBox .Button #Play #tooltip3 {
+  visibility: hidden;
+  background-color: rgba(82, 80, 80, 0.926);
+}
+.container .slider .imageBox .Button #Play:hover #tooltip3 {
+  visibility: visible;
+}
+.container .slider .imageBox .Button #Pause {
+  width: 40px;
+  height: 40px;
+  border-color: aliceblue;
+  border-style: double;
+  border-width: 0px 0px 0px 27.5px;
+  visibility: hidden;
+  background-color: transparent;
+  margin-left: -55px;
+  cursor: pointer;
+}
+.container .slider .imageBox .Button #Pause #tooltip4 {
+  visibility: hidden;
+  background-color: rgba(82, 80, 80, 0.926);
+}
+.container .slider .imageBox .Button #Pause:hover #tooltip4 {
+  visibility: visible;
+}
+.container .slider .next {
+  width: 2.5%;
+  height: 2.5vh;
+  border-right: 14px solid transparent;
+  border-bottom: 14px solid transparent;
+  border-left: 14px solid aliceblue;
+  border-top: 14px solid transparent;
+  cursor: pointer;
+}
+.container .slider .next #tooltip2 {
+  visibility: hidden;
+  background-color: rgba(82, 80, 80, 0.926);
+}
+.container .slider .next:hover #tooltip2 {
+  visibility: visible;
+}
+#link {
+  color: whitesmoke;
+  float: right;
+  padding: 20px;
+  text-decoration: none;
+  font-family: Verdana;
+  font-size: 10px;
+}

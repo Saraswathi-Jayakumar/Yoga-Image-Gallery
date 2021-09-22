@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga gallery</title>
+    <link rel="stylesheet" href="yoga.css">
+</head>
+<body>
+    <div class="container">
+        <div id="heading">
+            <img id="logo-img" src="YogaImages/YogaLogo.png">
+            <h1>Yoga for beginners</h1>
+        </div>
+        
+        <div class="slider">
+            <div class="prev" onclick="preImage()">
+                <span id="tooltip">Previous</span>
+            </div>
+            <div class="imageBox">
+                <div id="header">
+
+                </div>
+
+                <img id="imageSlider" src="YogaImages/1-Vajrasana.jpg">
+
+                <div id="benefits">
+                    <p>Benefits</p>
+                </div>
+
+                <div class="Button">
+                    <div id="Play" onclick="changeImage()">
+                        <span id="tooltip3">Play</span>
+                    </div> 
+                    <div id="Pause" onclick="stopImage()">
+                        <span id="tooltip4">Pause</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="next" onclick="nextImage()">
+                <span id="tooltip2">Next</span>
+            </div>
+        </div>
+    </div>
+    <a id="link" href="https://saraswathi-jayakumar-portfolio.netlify.app/">To back</a>
+    <script src="yoga.js"></script>    
+</body>
+</html>
