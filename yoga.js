@@ -23,7 +23,7 @@ var images = ["YogaImages/1-Vajrasana.jpg",
                 "YogaImages/9-Utkatasana.jpg",
                 "YogaImages/10-Balasana.png"];
 
-var time = 1500;
+var time = 3000;
 var i = 0;
 var x;
                                
@@ -33,7 +33,7 @@ var uses = [
   "-- therapeutic for asthma, stretching, improves mensual irregularities",
   "-- increases flexibility and cleanses internal orgnas",
   "-- reducing anxiety and promoting muscle relaxation",
-  "-- strengthen muscles and iimproves posture",
+  "-- strengthen muscles and improves posture",
   "-- helps relieving the symptoms of menopause and menstural discomfort",
   "-- stimulates function of abdominal organs along with reducing stress",
   "-- stimulates the heart, diaphragm and abdominal organs",
