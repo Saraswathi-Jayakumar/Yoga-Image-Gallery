@@ -26,7 +26,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  row-gap: 10px;
+  row-gap: 8px;
   width: 100%;
   height: max-content;
   padding-bottom: 10px;
@@ -42,11 +42,11 @@ body {
   flex-direction: row;
   align-items: center;
   column-gap: 30px;
-  padding: 10px;
+  padding: 5px;
 }
 .container #heading #logo-img {
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   border: 2px solid rgb(60, 70, 40);
 }
@@ -87,7 +87,7 @@ body {
   border: 5px solid aliceblue;
   display: flex;
   flex-direction: column;
-  row-gap: 8px;
+  row-gap: 12px;
   padding: 8px;
   align-items: center;
 }

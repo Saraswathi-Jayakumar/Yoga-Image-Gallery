@@ -10,6 +10,7 @@ var title = ["1. Vajrasana",
             "10. Balasana"];
 
 document.getElementById("header").innerHTML = title[0];
+
 var j = 0;
 
 var images = ["YogaImages/1-Vajrasana.jpg",
